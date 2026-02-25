@@ -1,0 +1,662 @@
+[
+    {
+        "id": "dang-ngoc-anh-thu",
+        "name": "Đặng Ngọc Anh Thư",
+        "role": "Thành viên",
+        "message": "Gửi Đặng Ngọc Anh Thư — người mang lại năng lượng tích cực cho mọi người. Chúc bạn luôn vui vẻ, xinh đẹp và đạt được mọi ước mơ! 🌷",
+        "emoji": "🌸",
+        "theme": "rose",
+        "quote": "Phụ nữ mạnh mẽ không chờ đợi cơ hội, họ tạo ra nó.",
+        "wish": "Luôn hạnh phúc và được yêu thương!"
+    },
+    {
+        "id": "tran-khang-nhat-linh",
+        "name": "Trần Khang Nhật Linh",
+        "role": "Thành viên",
+        "message": "Trần Khang Nhật Linh ơi, mỗi sự đóng góp của bạn đều mang lại niềm vui cho CLB. Chúc bạn ngày 8/3 thật nhiều hoa, thật nhiều yêu thương! 🌸",
+        "emoji": "🌷",
+        "theme": "lavender",
+        "quote": "Sự dịu dàng không phải là điểm yếu, mà là sức mạnh lớn nhất.",
+        "wish": "Tỏa sáng rực rỡ trên mọi chặng đường!"
+    },
+    {
+        "id": "ta-khanh-vy",
+        "name": "Tạ Khánh Vy",
+        "role": "Thành viên",
+        "message": "Chúc Tạ Khánh Vy luôn giữ được ngọn lửa nhiệt huyết và sự tự tin. Ngày 8/3 này, hãy để mình được chiều chuộng nhé! 🌺",
+        "emoji": "🌺",
+        "theme": "mint",
+        "quote": "Mỗi cô gái đều là một ngôi sao, chỉ cần tìm đúng bầu trời.",
+        "wish": "Đạt được mọi mục tiêu đã đề ra!"
+    },
+    {
+        "id": "nguyen-thanh-hong-ngan",
+        "name": "Nguyễn Thanh Hồng Ngân",
+        "role": "Thành viên",
+        "message": "Thân gửi Nguyễn Thanh Hồng Ngân, cảm ơn bạn đã luôn đồng hành cùng CLB. Chúc bạn ngày 8/3 tràn đầy niềm vui và những điều bất ngờ! 💫",
+        "emoji": "🌼",
+        "theme": "peach",
+        "quote": "Hãy là phiên bản đẹp nhất của chính mình.",
+        "wish": "Luôn cười thật tươi mỗi ngày!"
+    },
+    {
+        "id": "pham-thi-tuyet-nhi",
+        "name": "Phạm Thị Tuyết Nhi",
+        "role": "Thành viên",
+        "message": "Phạm Thị Tuyết Nhi thân mến, nụ cười của bạn luôn làm sáng cả môi trường làm việc! Chúc bạn ngày Phụ nữ thật đặc biệt! 🌻",
+        "emoji": "🌻",
+        "theme": "sky",
+        "quote": "Năng lượng tích cực là món quà đẹp nhất bạn có thể trao đi.",
+        "wish": "Gặp thật nhiều may mắn và yêu thương!"
+    },
+    {
+        "id": "huynh-ngoc-minh-thu",
+        "name": "Huỳnh Ngọc Minh Thư",
+        "role": "Thành viên",
+        "message": "Gửi Huỳnh Ngọc Minh Thư, sự chăm chỉ và nhiệt tình của bạn là nguồn cảm hứng cho mọi người. Chúc bạn ngày 8/3 thật ấm áp và ý nghĩa! 🌿",
+        "emoji": "🌿",
+        "theme": "coral",
+        "quote": "Sáng tạo là cách phụ nữ thay đổi thế giới.",
+        "wish": "Luôn bùng cháy đam mê!"
+    },
+    {
+        "id": "nguyen-huynh-thanh-liem",
+        "name": "Nguyễn Huỳnh Thanh Liêm",
+        "role": "Thành viên",
+        "message": "Gửi Nguyễn Huỳnh Thanh Liêm — người mang lại năng lượng tích cực cho mọi người. Chúc bạn luôn vui vẻ, xinh đẹp và đạt được mọi ước mơ! 🌷",
+        "emoji": "🦋",
+        "theme": "rose",
+        "quote": "Phụ nữ mạnh mẽ không chờ đợi cơ hội, họ tạo ra nó.",
+        "wish": "Luôn hạnh phúc và được yêu thương!"
+    },
+    {
+        "id": "vo-nhu-ngoc",
+        "name": "Võ Như Ngọc",
+        "role": "Mentor Ban Event",
+        "message": "Võ Như Ngọc ơi, mỗi sự đóng góp của bạn đều mang lại niềm vui cho CLB. Chúc bạn ngày 8/3 thật nhiều hoa, thật nhiều yêu thương! 🌸",
+        "emoji": "✨",
+        "theme": "lavender",
+        "quote": "Sự dịu dàng không phải là điểm yếu, mà là sức mạnh lớn nhất.",
+        "wish": "Tỏa sáng rực rỡ trên mọi chặng đường!"
+    },
+    {
+        "id": "phan-huynh-minh-anh",
+        "name": "Phan Huỳnh Minh Anh",
+        "role": "Thành viên",
+        "message": "Chúc Phan Huỳnh Minh Anh luôn giữ được ngọn lửa nhiệt huyết và sự tự tin. Ngày 8/3 này, hãy để mình được chiều chuộng nhé! 🌺",
+        "emoji": "🌸",
+        "theme": "mint",
+        "quote": "Mỗi cô gái đều là một ngôi sao, chỉ cần tìm đúng bầu trời.",
+        "wish": "Đạt được mọi mục tiêu đã đề ra!"
+    },
+    {
+        "id": "ta-ngoc-thanh-thanh",
+        "name": "Tạ Ngọc Thanh Thanh",
+        "role": "Thành viên",
+        "message": "Thân gửi Tạ Ngọc Thanh Thanh, cảm ơn bạn đã luôn đồng hành cùng CLB. Chúc bạn ngày 8/3 tràn đầy niềm vui và những điều bất ngờ! 💫",
+        "emoji": "🌷",
+        "theme": "peach",
+        "quote": "Hãy là phiên bản đẹp nhất của chính mình.",
+        "wish": "Luôn cười thật tươi mỗi ngày!"
+    },
+    {
+        "id": "le-trieu-vi",
+        "name": "Lê Triệu Vi",
+        "role": "Thành viên",
+        "message": "Lê Triệu Vi thân mến, nụ cười của bạn luôn làm sáng cả môi trường làm việc! Chúc bạn ngày Phụ nữ thật đặc biệt! 🌻",
+        "emoji": "🌺",
+        "theme": "sky",
+        "quote": "Năng lượng tích cực là món quà đẹp nhất bạn có thể trao đi.",
+        "wish": "Gặp thật nhiều may mắn và yêu thương!"
+    },
+    {
+        "id": "pham-ngoc-bao-tram",
+        "name": "Phạm Ngọc Bảo Trâm",
+        "role": "Thành viên",
+        "message": "Gửi Phạm Ngọc Bảo Trâm, sự chăm chỉ và nhiệt tình của bạn là nguồn cảm hứng cho mọi người. Chúc bạn ngày 8/3 thật ấm áp và ý nghĩa! 🌿",
+        "emoji": "🌼",
+        "theme": "coral",
+        "quote": "Sáng tạo là cách phụ nữ thay đổi thế giới.",
+        "wish": "Luôn bùng cháy đam mê!"
+    },
+    {
+        "id": "vu-nguyen-doan-nguyen",
+        "name": "Vũ Nguyễn Đoan Nguyên",
+        "role": "Phó ban Event",
+        "message": "Gửi Vũ Nguyễn Đoan Nguyên — người mang lại năng lượng tích cực cho mọi người. Chúc bạn luôn vui vẻ, xinh đẹp và đạt được mọi ước mơ! 🌷",
+        "emoji": "🌻",
+        "theme": "rose",
+        "quote": "Phụ nữ mạnh mẽ không chờ đợi cơ hội, họ tạo ra nó.",
+        "wish": "Luôn hạnh phúc và được yêu thương!"
+    },
+    {
+        "id": "trinh-yen-phuong",
+        "name": "Trịnh Yến Phương",
+        "role": "Thành viên",
+        "message": "Trịnh Yến Phương ơi, mỗi sự đóng góp của bạn đều mang lại niềm vui cho CLB. Chúc bạn ngày 8/3 thật nhiều hoa, thật nhiều yêu thương! 🌸",
+        "emoji": "🌿",
+        "theme": "lavender",
+        "quote": "Sự dịu dàng không phải là điểm yếu, mà là sức mạnh lớn nhất.",
+        "wish": "Tỏa sáng rực rỡ trên mọi chặng đường!"
+    },
+    {
+        "id": "le-tue-nhi",
+        "name": "Lê Tuệ Nhi",
+        "role": "Thành viên",
+        "message": "Chúc Lê Tuệ Nhi luôn giữ được ngọn lửa nhiệt huyết và sự tự tin. Ngày 8/3 này, hãy để mình được chiều chuộng nhé! 🌺",
+        "emoji": "🦋",
+        "theme": "mint",
+        "quote": "Mỗi cô gái đều là một ngôi sao, chỉ cần tìm đúng bầu trời.",
+        "wish": "Đạt được mọi mục tiêu đã đề ra!"
+    },
+    {
+        "id": "nguyen-le-thao-vy",
+        "name": "Nguyễn Lê Thảo Vy",
+        "role": "Thành viên",
+        "message": "Thân gửi Nguyễn Lê Thảo Vy, cảm ơn bạn đã luôn đồng hành cùng CLB. Chúc bạn ngày 8/3 tràn đầy niềm vui và những điều bất ngờ! 💫",
+        "emoji": "✨",
+        "theme": "peach",
+        "quote": "Hãy là phiên bản đẹp nhất của chính mình.",
+        "wish": "Luôn cười thật tươi mỗi ngày!"
+    },
+    {
+        "id": "tran-thi-tam",
+        "name": "Trần Thị Tâm",
+        "role": "Thành viên",
+        "message": "Trần Thị Tâm thân mến, nụ cười của bạn luôn làm sáng cả môi trường làm việc! Chúc bạn ngày Phụ nữ thật đặc biệt! 🌻",
+        "emoji": "🌸",
+        "theme": "sky",
+        "quote": "Năng lượng tích cực là món quà đẹp nhất bạn có thể trao đi.",
+        "wish": "Gặp thật nhiều may mắn và yêu thương!"
+    },
+    {
+        "id": "vo-thanh-truc",
+        "name": "Võ Thanh Trúc",
+        "role": "Thành viên",
+        "message": "Gửi Võ Thanh Trúc, sự chăm chỉ và nhiệt tình của bạn là nguồn cảm hứng cho mọi người. Chúc bạn ngày 8/3 thật ấm áp và ý nghĩa! 🌿",
+        "emoji": "🌷",
+        "theme": "coral",
+        "quote": "Sáng tạo là cách phụ nữ thay đổi thế giới.",
+        "wish": "Luôn bùng cháy đam mê!"
+    },
+    {
+        "id": "nguyen-thi-thao-nhi",
+        "name": "Nguyễn Thị Thảo Nhi",
+        "role": "Thành viên",
+        "message": "Gửi Nguyễn Thị Thảo Nhi — người mang lại năng lượng tích cực cho mọi người. Chúc bạn luôn vui vẻ, xinh đẹp và đạt được mọi ước mơ! 🌷",
+        "emoji": "🌺",
+        "theme": "rose",
+        "quote": "Phụ nữ mạnh mẽ không chờ đợi cơ hội, họ tạo ra nó.",
+        "wish": "Luôn hạnh phúc và được yêu thương!"
+    },
+    {
+        "id": "do-thi-hong-tham",
+        "name": "Đỗ Thị Hồng Thắm",
+        "role": "Thành viên",
+        "message": "Đỗ Thị Hồng Thắm ơi, mỗi sự đóng góp của bạn đều mang lại niềm vui cho CLB. Chúc bạn ngày 8/3 thật nhiều hoa, thật nhiều yêu thương! 🌸",
+        "emoji": "🌼",
+        "theme": "lavender",
+        "quote": "Sự dịu dàng không phải là điểm yếu, mà là sức mạnh lớn nhất.",
+        "wish": "Tỏa sáng rực rỡ trên mọi chặng đường!"
+    },
+    {
+        "id": "dang-nguyet-nhi",
+        "name": "Đặng Nguyệt Nhi",
+        "role": "Thành viên",
+        "message": "Chúc Đặng Nguyệt Nhi luôn giữ được ngọn lửa nhiệt huyết và sự tự tin. Ngày 8/3 này, hãy để mình được chiều chuộng nhé! 🌺",
+        "emoji": "🌻",
+        "theme": "mint",
+        "quote": "Mỗi cô gái đều là một ngôi sao, chỉ cần tìm đúng bầu trời.",
+        "wish": "Đạt được mọi mục tiêu đã đề ra!"
+    },
+    {
+        "id": "vu-mai-anh",
+        "name": "Vũ Mai Anh",
+        "role": "Thành viên",
+        "message": "Thân gửi Vũ Mai Anh, cảm ơn bạn đã luôn đồng hành cùng CLB. Chúc bạn ngày 8/3 tràn đầy niềm vui và những điều bất ngờ! 💫",
+        "emoji": "🌿",
+        "theme": "peach",
+        "quote": "Hãy là phiên bản đẹp nhất của chính mình.",
+        "wish": "Luôn cười thật tươi mỗi ngày!"
+    },
+    {
+        "id": "nguyen-thi-thanh-dieu",
+        "name": "Nguyễn Thị Thanh Diệu",
+        "role": "Thành viên",
+        "message": "Nguyễn Thị Thanh Diệu thân mến, nụ cười của bạn luôn làm sáng cả môi trường làm việc! Chúc bạn ngày Phụ nữ thật đặc biệt! 🌻",
+        "emoji": "🦋",
+        "theme": "sky",
+        "quote": "Năng lượng tích cực là món quà đẹp nhất bạn có thể trao đi.",
+        "wish": "Gặp thật nhiều may mắn và yêu thương!"
+    },
+    {
+        "id": "nguyen-thi-huyen-tram",
+        "name": "Nguyễn Thị Huyền Trâm",
+        "role": "Thành viên",
+        "message": "Gửi Nguyễn Thị Huyền Trâm, sự chăm chỉ và nhiệt tình của bạn là nguồn cảm hứng cho mọi người. Chúc bạn ngày 8/3 thật ấm áp và ý nghĩa! 🌿",
+        "emoji": "✨",
+        "theme": "coral",
+        "quote": "Sáng tạo là cách phụ nữ thay đổi thế giới.",
+        "wish": "Luôn bùng cháy đam mê!"
+    },
+    {
+        "id": "huynh-thao-duyen",
+        "name": "Huỳnh Thảo Duyên",
+        "role": "Thành viên",
+        "message": "Gửi Huỳnh Thảo Duyên — người mang lại năng lượng tích cực cho mọi người. Chúc bạn luôn vui vẻ, xinh đẹp và đạt được mọi ước mơ! 🌷",
+        "emoji": "🌸",
+        "theme": "rose",
+        "quote": "Phụ nữ mạnh mẽ không chờ đợi cơ hội, họ tạo ra nó.",
+        "wish": "Luôn hạnh phúc và được yêu thương!"
+    },
+    {
+        "id": "nguyen-phuong-thao",
+        "name": "Nguyễn Phương Thảo",
+        "role": "Thành viên",
+        "message": "Nguyễn Phương Thảo ơi, mỗi sự đóng góp của bạn đều mang lại niềm vui cho CLB. Chúc bạn ngày 8/3 thật nhiều hoa, thật nhiều yêu thương! 🌸",
+        "emoji": "🌷",
+        "theme": "lavender",
+        "quote": "Sự dịu dàng không phải là điểm yếu, mà là sức mạnh lớn nhất.",
+        "wish": "Tỏa sáng rực rỡ trên mọi chặng đường!"
+    },
+    {
+        "id": "nguyen-minh-thu",
+        "name": "Nguyễn Minh Thư",
+        "role": "Thành viên",
+        "message": "Chúc Nguyễn Minh Thư luôn giữ được ngọn lửa nhiệt huyết và sự tự tin. Ngày 8/3 này, hãy để mình được chiều chuộng nhé! 🌺",
+        "emoji": "🌺",
+        "theme": "mint",
+        "quote": "Mỗi cô gái đều là một ngôi sao, chỉ cần tìm đúng bầu trời.",
+        "wish": "Đạt được mọi mục tiêu đã đề ra!"
+    },
+    {
+        "id": "luong-pham-nhu-an",
+        "name": "Lương Phạm Như An",
+        "role": "Thành viên",
+        "message": "Thân gửi Lương Phạm Như An, cảm ơn bạn đã luôn đồng hành cùng CLB. Chúc bạn ngày 8/3 tràn đầy niềm vui và những điều bất ngờ! 💫",
+        "emoji": "🌼",
+        "theme": "peach",
+        "quote": "Hãy là phiên bản đẹp nhất của chính mình.",
+        "wish": "Luôn cười thật tươi mỗi ngày!"
+    },
+    {
+        "id": "le-tran-gia-bao",
+        "name": "Lê Trần Gia Bảo",
+        "role": "Thành viên",
+        "message": "Lê Trần Gia Bảo thân mến, nụ cười của bạn luôn làm sáng cả môi trường làm việc! Chúc bạn ngày Phụ nữ thật đặc biệt! 🌻",
+        "emoji": "🌻",
+        "theme": "sky",
+        "quote": "Năng lượng tích cực là món quà đẹp nhất bạn có thể trao đi.",
+        "wish": "Gặp thật nhiều may mắn và yêu thương!"
+    },
+    {
+        "id": "bui-thi-phuong-thao",
+        "name": "Bùi Thị Phương Thảo",
+        "role": "Thành viên",
+        "message": "Gửi Bùi Thị Phương Thảo, sự chăm chỉ và nhiệt tình của bạn là nguồn cảm hứng cho mọi người. Chúc bạn ngày 8/3 thật ấm áp và ý nghĩa! 🌿",
+        "emoji": "🌿",
+        "theme": "coral",
+        "quote": "Sáng tạo là cách phụ nữ thay đổi thế giới.",
+        "wish": "Luôn bùng cháy đam mê!"
+    },
+    {
+        "id": "phan-nguyen-khiet-tran",
+        "name": "Phan Nguyễn Khiết Trân",
+        "role": "Thành viên",
+        "message": "Gửi Phan Nguyễn Khiết Trân — người mang lại năng lượng tích cực cho mọi người. Chúc bạn luôn vui vẻ, xinh đẹp và đạt được mọi ước mơ! 🌷",
+        "emoji": "🦋",
+        "theme": "rose",
+        "quote": "Phụ nữ mạnh mẽ không chờ đợi cơ hội, họ tạo ra nó.",
+        "wish": "Luôn hạnh phúc và được yêu thương!"
+    },
+    {
+        "id": "le-thuy-linh",
+        "name": "Lê Thùy Linh",
+        "role": "Thành viên",
+        "message": "Lê Thùy Linh ơi, mỗi sự đóng góp của bạn đều mang lại niềm vui cho CLB. Chúc bạn ngày 8/3 thật nhiều hoa, thật nhiều yêu thương! 🌸",
+        "emoji": "✨",
+        "theme": "lavender",
+        "quote": "Sự dịu dàng không phải là điểm yếu, mà là sức mạnh lớn nhất.",
+        "wish": "Tỏa sáng rực rỡ trên mọi chặng đường!"
+    },
+    {
+        "id": "dang-nguyen-hoang-yen",
+        "name": "Đặng Nguyễn Hoàng Yến",
+        "role": "Thành viên",
+        "message": "Chúc Đặng Nguyễn Hoàng Yến luôn giữ được ngọn lửa nhiệt huyết và sự tự tin. Ngày 8/3 này, hãy để mình được chiều chuộng nhé! 🌺",
+        "emoji": "🌸",
+        "theme": "mint",
+        "quote": "Mỗi cô gái đều là một ngôi sao, chỉ cần tìm đúng bầu trời.",
+        "wish": "Đạt được mọi mục tiêu đã đề ra!"
+    },
+    {
+        "id": "truong-nhat-nam",
+        "name": "Trương Nhật Nam",
+        "role": "Thành viên",
+        "message": "Thân gửi Trương Nhật Nam, cảm ơn bạn đã luôn đồng hành cùng CLB. Chúc bạn ngày 8/3 tràn đầy niềm vui và những điều bất ngờ! 💫",
+        "emoji": "🌷",
+        "theme": "peach",
+        "quote": "Hãy là phiên bản đẹp nhất của chính mình.",
+        "wish": "Luôn cười thật tươi mỗi ngày!"
+    },
+    {
+        "id": "tran-hieu-thao",
+        "name": "Trần Hiếu Thảo",
+        "role": "Thành viên",
+        "message": "Trần Hiếu Thảo thân mến, nụ cười của bạn luôn làm sáng cả môi trường làm việc! Chúc bạn ngày Phụ nữ thật đặc biệt! 🌻",
+        "emoji": "🌺",
+        "theme": "sky",
+        "quote": "Năng lượng tích cực là món quà đẹp nhất bạn có thể trao đi.",
+        "wish": "Gặp thật nhiều may mắn và yêu thương!"
+    },
+    {
+        "id": "bui-le-thien-thanh",
+        "name": "Bùi Lê Thiên Thanh",
+        "role": "Thành viên",
+        "message": "Gửi Bùi Lê Thiên Thanh, sự chăm chỉ và nhiệt tình của bạn là nguồn cảm hứng cho mọi người. Chúc bạn ngày 8/3 thật ấm áp và ý nghĩa! 🌿",
+        "emoji": "🌼",
+        "theme": "coral",
+        "quote": "Sáng tạo là cách phụ nữ thay đổi thế giới.",
+        "wish": "Luôn bùng cháy đam mê!"
+    },
+    {
+        "id": "do-hoan-thien",
+        "name": "Đỗ Hoàn Thiện",
+        "role": "Thành viên",
+        "message": "Gửi Đỗ Hoàn Thiện — người mang lại năng lượng tích cực cho mọi người. Chúc bạn luôn vui vẻ, xinh đẹp và đạt được mọi ước mơ! 🌷",
+        "emoji": "🌻",
+        "theme": "rose",
+        "quote": "Phụ nữ mạnh mẽ không chờ đợi cơ hội, họ tạo ra nó.",
+        "wish": "Luôn hạnh phúc và được yêu thương!"
+    },
+    {
+        "id": "ho-thi-quynh-thy",
+        "name": "Hồ Thị Quỳnh Thy",
+        "role": "Thành viên",
+        "message": "Hồ Thị Quỳnh Thy ơi, mỗi sự đóng góp của bạn đều mang lại niềm vui cho CLB. Chúc bạn ngày 8/3 thật nhiều hoa, thật nhiều yêu thương! 🌸",
+        "emoji": "🌿",
+        "theme": "lavender",
+        "quote": "Sự dịu dàng không phải là điểm yếu, mà là sức mạnh lớn nhất.",
+        "wish": "Tỏa sáng rực rỡ trên mọi chặng đường!"
+    },
+    {
+        "id": "hoang-quynh-anh",
+        "name": "Hoàng Quỳnh Anh",
+        "role": "Thành viên",
+        "message": "Chúc Hoàng Quỳnh Anh luôn giữ được ngọn lửa nhiệt huyết và sự tự tin. Ngày 8/3 này, hãy để mình được chiều chuộng nhé! 🌺",
+        "emoji": "🦋",
+        "theme": "mint",
+        "quote": "Mỗi cô gái đều là một ngôi sao, chỉ cần tìm đúng bầu trời.",
+        "wish": "Đạt được mọi mục tiêu đã đề ra!"
+    },
+    {
+        "id": "tran-nam-phuong-vy",
+        "name": "Trần Nam Phương Vy",
+        "role": "Thành viên",
+        "message": "Thân gửi Trần Nam Phương Vy, cảm ơn bạn đã luôn đồng hành cùng CLB. Chúc bạn ngày 8/3 tràn đầy niềm vui và những điều bất ngờ! 💫",
+        "emoji": "✨",
+        "theme": "peach",
+        "quote": "Hãy là phiên bản đẹp nhất của chính mình.",
+        "wish": "Luôn cười thật tươi mỗi ngày!"
+    },
+    {
+        "id": "dang-ngoc-anh",
+        "name": "Đặng Ngọc Ánh",
+        "role": "Thành viên",
+        "message": "Đặng Ngọc Ánh thân mến, nụ cười của bạn luôn làm sáng cả môi trường làm việc! Chúc bạn ngày Phụ nữ thật đặc biệt! 🌻",
+        "emoji": "🌸",
+        "theme": "sky",
+        "quote": "Năng lượng tích cực là món quà đẹp nhất bạn có thể trao đi.",
+        "wish": "Gặp thật nhiều may mắn và yêu thương!"
+    },
+    {
+        "id": "nguyen-thi-bich-my",
+        "name": "Nguyễn Thị Bích My",
+        "role": "Thành viên",
+        "message": "Gửi Nguyễn Thị Bích My, sự chăm chỉ và nhiệt tình của bạn là nguồn cảm hứng cho mọi người. Chúc bạn ngày 8/3 thật ấm áp và ý nghĩa! 🌿",
+        "emoji": "🌷",
+        "theme": "coral",
+        "quote": "Sáng tạo là cách phụ nữ thay đổi thế giới.",
+        "wish": "Luôn bùng cháy đam mê!"
+    },
+    {
+        "id": "nguyen-tuong-anh",
+        "name": "Nguyễn Tường Anh",
+        "role": "Thành viên",
+        "message": "Gửi Nguyễn Tường Anh — người mang lại năng lượng tích cực cho mọi người. Chúc bạn luôn vui vẻ, xinh đẹp và đạt được mọi ước mơ! 🌷",
+        "emoji": "🌺",
+        "theme": "rose",
+        "quote": "Phụ nữ mạnh mẽ không chờ đợi cơ hội, họ tạo ra nó.",
+        "wish": "Luôn hạnh phúc và được yêu thương!"
+    },
+    {
+        "id": "pham-thi-my-linh",
+        "name": "Phạm Thị Mỹ Linh",
+        "role": "Thành viên",
+        "message": "Phạm Thị Mỹ Linh ơi, mỗi sự đóng góp của bạn đều mang lại niềm vui cho CLB. Chúc bạn ngày 8/3 thật nhiều hoa, thật nhiều yêu thương! 🌸",
+        "emoji": "🌼",
+        "theme": "lavender",
+        "quote": "Sự dịu dàng không phải là điểm yếu, mà là sức mạnh lớn nhất.",
+        "wish": "Tỏa sáng rực rỡ trên mọi chặng đường!"
+    },
+    {
+        "id": "nguyen-quynh-mai",
+        "name": "Nguyễn Quỳnh Mai",
+        "role": "Thành viên",
+        "message": "Chúc Nguyễn Quỳnh Mai luôn giữ được ngọn lửa nhiệt huyết và sự tự tin. Ngày 8/3 này, hãy để mình được chiều chuộng nhé! 🌺",
+        "emoji": "🌻",
+        "theme": "mint",
+        "quote": "Mỗi cô gái đều là một ngôi sao, chỉ cần tìm đúng bầu trời.",
+        "wish": "Đạt được mọi mục tiêu đã đề ra!"
+    },
+    {
+        "id": "tran-nguyen-que-linh",
+        "name": "Trần Nguyễn Quế Linh",
+        "role": "Thành viên",
+        "message": "Thân gửi Trần Nguyễn Quế Linh, cảm ơn bạn đã luôn đồng hành cùng CLB. Chúc bạn ngày 8/3 tràn đầy niềm vui và những điều bất ngờ! 💫",
+        "emoji": "🌿",
+        "theme": "peach",
+        "quote": "Hãy là phiên bản đẹp nhất của chính mình.",
+        "wish": "Luôn cười thật tươi mỗi ngày!"
+    },
+    {
+        "id": "hoang-thi-thanh-ha",
+        "name": "Hoàng Thị Thanh Hà",
+        "role": "Thành viên",
+        "message": "Hoàng Thị Thanh Hà thân mến, nụ cười của bạn luôn làm sáng cả môi trường làm việc! Chúc bạn ngày Phụ nữ thật đặc biệt! 🌻",
+        "emoji": "🦋",
+        "theme": "sky",
+        "quote": "Năng lượng tích cực là món quà đẹp nhất bạn có thể trao đi.",
+        "wish": "Gặp thật nhiều may mắn và yêu thương!"
+    },
+    {
+        "id": "le-quynh-huong",
+        "name": "Lê Quỳnh Hương",
+        "role": "Thành viên",
+        "message": "Gửi Lê Quỳnh Hương, sự chăm chỉ và nhiệt tình của bạn là nguồn cảm hứng cho mọi người. Chúc bạn ngày 8/3 thật ấm áp và ý nghĩa! 🌿",
+        "emoji": "✨",
+        "theme": "coral",
+        "quote": "Sáng tạo là cách phụ nữ thay đổi thế giới.",
+        "wish": "Luôn bùng cháy đam mê!"
+    },
+    {
+        "id": "pham-huynh-anh",
+        "name": "Phạm Huỳnh Anh",
+        "role": "Thành viên",
+        "message": "Gửi Phạm Huỳnh Anh — người mang lại năng lượng tích cực cho mọi người. Chúc bạn luôn vui vẻ, xinh đẹp và đạt được mọi ước mơ! 🌷",
+        "emoji": "🌸",
+        "theme": "rose",
+        "quote": "Phụ nữ mạnh mẽ không chờ đợi cơ hội, họ tạo ra nó.",
+        "wish": "Luôn hạnh phúc và được yêu thương!"
+    },
+    {
+        "id": "duong-cat-tien",
+        "name": "Dương Cát Tiên",
+        "role": "Thành viên",
+        "message": "Dương Cát Tiên ơi, mỗi sự đóng góp của bạn đều mang lại niềm vui cho CLB. Chúc bạn ngày 8/3 thật nhiều hoa, thật nhiều yêu thương! 🌸",
+        "emoji": "🌷",
+        "theme": "lavender",
+        "quote": "Sự dịu dàng không phải là điểm yếu, mà là sức mạnh lớn nhất.",
+        "wish": "Tỏa sáng rực rỡ trên mọi chặng đường!"
+    },
+    {
+        "id": "bui-tran-ngoc-tram",
+        "name": "Bùi Trần Ngọc Trâm",
+        "role": "Thành viên",
+        "message": "Chúc Bùi Trần Ngọc Trâm luôn giữ được ngọn lửa nhiệt huyết và sự tự tin. Ngày 8/3 này, hãy để mình được chiều chuộng nhé! 🌺",
+        "emoji": "🌺",
+        "theme": "mint",
+        "quote": "Mỗi cô gái đều là một ngôi sao, chỉ cần tìm đúng bầu trời.",
+        "wish": "Đạt được mọi mục tiêu đã đề ra!"
+    },
+    {
+        "id": "truong-nguyen-bao-tran",
+        "name": "Trương Nguyễn Bảo Trân",
+        "role": "Thành viên",
+        "message": "Thân gửi Trương Nguyễn Bảo Trân, cảm ơn bạn đã luôn đồng hành cùng CLB. Chúc bạn ngày 8/3 tràn đầy niềm vui và những điều bất ngờ! 💫",
+        "emoji": "🌼",
+        "theme": "peach",
+        "quote": "Hãy là phiên bản đẹp nhất của chính mình.",
+        "wish": "Luôn cười thật tươi mỗi ngày!"
+    },
+    {
+        "id": "nguyen-quynh-huong",
+        "name": "Nguyễn Quỳnh Hương",
+        "role": "Thành viên",
+        "message": "Nguyễn Quỳnh Hương thân mến, nụ cười của bạn luôn làm sáng cả môi trường làm việc! Chúc bạn ngày Phụ nữ thật đặc biệt! 🌻",
+        "emoji": "🌻",
+        "theme": "sky",
+        "quote": "Năng lượng tích cực là món quà đẹp nhất bạn có thể trao đi.",
+        "wish": "Gặp thật nhiều may mắn và yêu thương!"
+    },
+    {
+        "id": "vo-hoang-kim-ngan",
+        "name": "Võ Hoàng Kim Ngân",
+        "role": "Thành viên",
+        "message": "Gửi Võ Hoàng Kim Ngân, sự chăm chỉ và nhiệt tình của bạn là nguồn cảm hứng cho mọi người. Chúc bạn ngày 8/3 thật ấm áp và ý nghĩa! 🌿",
+        "emoji": "🌿",
+        "theme": "coral",
+        "quote": "Sáng tạo là cách phụ nữ thay đổi thế giới.",
+        "wish": "Luôn bùng cháy đam mê!"
+    },
+    {
+        "id": "pham-thanh-thao",
+        "name": "Phạm Thanh Thảo",
+        "role": "Thành viên",
+        "message": "Gửi Phạm Thanh Thảo — người mang lại năng lượng tích cực cho mọi người. Chúc bạn luôn vui vẻ, xinh đẹp và đạt được mọi ước mơ! 🌷",
+        "emoji": "🦋",
+        "theme": "rose",
+        "quote": "Phụ nữ mạnh mẽ không chờ đợi cơ hội, họ tạo ra nó.",
+        "wish": "Luôn hạnh phúc và được yêu thương!"
+    },
+    {
+        "id": "tong-khanh-linh",
+        "name": "Tống Khánh Linh",
+        "role": "Thành viên",
+        "message": "Tống Khánh Linh ơi, mỗi sự đóng góp của bạn đều mang lại niềm vui cho CLB. Chúc bạn ngày 8/3 thật nhiều hoa, thật nhiều yêu thương! 🌸",
+        "emoji": "✨",
+        "theme": "lavender",
+        "quote": "Sự dịu dàng không phải là điểm yếu, mà là sức mạnh lớn nhất.",
+        "wish": "Tỏa sáng rực rỡ trên mọi chặng đường!"
+    },
+    {
+        "id": "luong-ha-minh-anh",
+        "name": "Lương Hà Minh Anh",
+        "role": "Thành viên",
+        "message": "Chúc Lương Hà Minh Anh luôn giữ được ngọn lửa nhiệt huyết và sự tự tin. Ngày 8/3 này, hãy để mình được chiều chuộng nhé! 🌺",
+        "emoji": "🌸",
+        "theme": "mint",
+        "quote": "Mỗi cô gái đều là một ngôi sao, chỉ cần tìm đúng bầu trời.",
+        "wish": "Đạt được mọi mục tiêu đã đề ra!"
+    },
+    {
+        "id": "do-phuong-thao",
+        "name": "Đỗ Phương Thảo",
+        "role": "Thành viên",
+        "message": "Thân gửi Đỗ Phương Thảo, cảm ơn bạn đã luôn đồng hành cùng CLB. Chúc bạn ngày 8/3 tràn đầy niềm vui và những điều bất ngờ! 💫",
+        "emoji": "🌷",
+        "theme": "peach",
+        "quote": "Hãy là phiên bản đẹp nhất của chính mình.",
+        "wish": "Luôn cười thật tươi mỗi ngày!"
+    },
+    {
+        "id": "ngo-thi-y-nhi",
+        "name": "Ngô Thị Ý Nhi",
+        "role": "Thành viên",
+        "message": "Ngô Thị Ý Nhi thân mến, nụ cười của bạn luôn làm sáng cả môi trường làm việc! Chúc bạn ngày Phụ nữ thật đặc biệt! 🌻",
+        "emoji": "🌺",
+        "theme": "sky",
+        "quote": "Năng lượng tích cực là món quà đẹp nhất bạn có thể trao đi.",
+        "wish": "Gặp thật nhiều may mắn và yêu thương!"
+    },
+    {
+        "id": "nguyen-mai-ngoc-vy",
+        "name": "Nguyễn Mai Ngọc Vy",
+        "role": "Thành viên",
+        "message": "Gửi Nguyễn Mai Ngọc Vy, sự chăm chỉ và nhiệt tình của bạn là nguồn cảm hứng cho mọi người. Chúc bạn ngày 8/3 thật ấm áp và ý nghĩa! 🌿",
+        "emoji": "🌼",
+        "theme": "coral",
+        "quote": "Sáng tạo là cách phụ nữ thay đổi thế giới.",
+        "wish": "Luôn bùng cháy đam mê!"
+    },
+    {
+        "id": "vo-thuy-phuong-ha",
+        "name": "Võ Thuỵ Phương Hà",
+        "role": "Thành viên",
+        "message": "Gửi Võ Thuỵ Phương Hà — người mang lại năng lượng tích cực cho mọi người. Chúc bạn luôn vui vẻ, xinh đẹp và đạt được mọi ước mơ! 🌷",
+        "emoji": "🌻",
+        "theme": "rose",
+        "quote": "Phụ nữ mạnh mẽ không chờ đợi cơ hội, họ tạo ra nó.",
+        "wish": "Luôn hạnh phúc và được yêu thương!"
+    },
+    {
+        "id": "hoang-thi-yen-nhi",
+        "name": "Hoàng Thị Yến Nhi",
+        "role": "Thành viên",
+        "message": "Hoàng Thị Yến Nhi ơi, mỗi sự đóng góp của bạn đều mang lại niềm vui cho CLB. Chúc bạn ngày 8/3 thật nhiều hoa, thật nhiều yêu thương! 🌸",
+        "emoji": "🌿",
+        "theme": "lavender",
+        "quote": "Sự dịu dàng không phải là điểm yếu, mà là sức mạnh lớn nhất.",
+        "wish": "Tỏa sáng rực rỡ trên mọi chặng đường!"
+    },
+    {
+        "id": "pham-hai-yen",
+        "name": "Phạm Hải Yến",
+        "role": "Thành viên",
+        "message": "Chúc Phạm Hải Yến luôn giữ được ngọn lửa nhiệt huyết và sự tự tin. Ngày 8/3 này, hãy để mình được chiều chuộng nhé! 🌺",
+        "emoji": "🦋",
+        "theme": "mint",
+        "quote": "Mỗi cô gái đều là một ngôi sao, chỉ cần tìm đúng bầu trời.",
+        "wish": "Đạt được mọi mục tiêu đã đề ra!"
+    },
+    {
+        "id": "nguyen-thi-ha-an",
+        "name": "Nguyễn Thị Hà Ân",
+        "role": "Thành viên",
+        "message": "Thân gửi Nguyễn Thị Hà Ân, cảm ơn bạn đã luôn đồng hành cùng CLB. Chúc bạn ngày 8/3 tràn đầy niềm vui và những điều bất ngờ! 💫",
+        "emoji": "✨",
+        "theme": "peach",
+        "quote": "Hãy là phiên bản đẹp nhất của chính mình.",
+        "wish": "Luôn cười thật tươi mỗi ngày!"
+    },
+    {
+        "id": "vo-vy-thanh",
+        "name": "Võ Vy Thanh",
+        "role": "Thành viên",
+        "message": "Võ Vy Thanh thân mến, nụ cười của bạn luôn làm sáng cả môi trường làm việc! Chúc bạn ngày Phụ nữ thật đặc biệt! 🌻",
+        "emoji": "🌸",
+        "theme": "sky",
+        "quote": "Năng lượng tích cực là món quà đẹp nhất bạn có thể trao đi.",
+        "wish": "Gặp thật nhiều may mắn và yêu thương!"
+    },
+    {
+        "id": "pham-ngoc-tu-anh",
+        "name": "Phạm Ngọc Tú Anh",
+        "role": "Thành viên",
+        "message": "Gửi Phạm Ngọc Tú Anh, sự chăm chỉ và nhiệt tình của bạn là nguồn cảm hứng cho mọi người. Chúc bạn ngày 8/3 thật ấm áp và ý nghĩa! 🌿",
+        "emoji": "🌷",
+        "theme": "coral",
+        "quote": "Sáng tạo là cách phụ nữ thay đổi thế giới.",
+        "wish": "Luôn bùng cháy đam mê!"
+    }
+]

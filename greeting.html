@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lời chúc cá nhân dành riêng cho bạn nhân ngày Quốc tế Phụ nữ 8/3.">
+    <title>💌 Lời Chúc Dành Riêng Cho Bạn — 8/3</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💌</text></svg>">
+</head>
+
+<div id="app-root">
+    <!-- Hoạt ảnh mở phong bì -->
+    <div class="envelope-overlay" id="envelopeOverlay">
+        <div class="envelope-scene">
+            <div class="envelope" id="envelope">
+                <div class="envelope-flap"></div>
+                <div class="envelope-body">
+                    <div class="envelope-letter">
+                        <span class="envelope-heart">💌</span>
+                        <p>Bạn có một lời chúc đặc biệt...</p>
+                    </div>
+                </div>
+            </div>
+            <p class="envelope-prompt">Nhấn để mở thư</p>
+        </div>
+    </div>
+
+    <!-- Hiệu ứng pháo hoa -->
+    <canvas id="confettiCanvas" class="confetti-canvas"></canvas>
+
+    <!-- Nội dung lời chúc -->
+    <div class="greeting-page" id="greetingPage" style="display:none;">
+        <!-- Các khối màu trang trí -->
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+
+        <!-- Các phần tử bay trôi trang trí -->
+        <div class="particles-container" id="particles"></div>
+
+        <!-- Nội dung chính -->
+        <div class="greeting-content" id="greetingContent">
+            <div class="loading">
+                <div class="loading-dots">
+                    <span></span><span></span><span></span>
+                </div>
+                <p>Đang chuẩn bị lời chúc...</p>
+            </div>
+        </div>
+
+        <!-- Phần Thẻ quà tặng -->
+        <div class="gift-card-section" id="giftCardSection" style="display:none;">
+            <div class="gift-card" id="giftCard">
+                <div class="gift-card-deco gift-card-deco-tl">✿</div>
+                <div class="gift-card-deco gift-card-deco-tr">❀</div>
+                <div class="gift-card-deco gift-card-deco-bl">❀</div>
+                <div class="gift-card-deco gift-card-deco-br">✿</div>
+                <div class="gift-card-header">
+                    <span class="gift-card-emoji" id="gcEmoji"></span>
+                    <p class="gift-card-label">Chúc Mừng Ngày 8/3</p>
+                </div>
+                <h2 class="gift-card-name" id="gcName"></h2>
+                <div class="gift-card-traits" id="gcTraits"></div>
+                <div class="gift-card-divider"></div>
+                <p class="gift-card-wish" id="gcWish"></p>
+                <div class="gift-card-footer">
+                    <span>8/3/2026</span>
+                    <span>♡</span>
+                    <span>Gửi gắm yêu thương</span>
+                </div>
+            </div>
+            <p class="gift-card-hint">
+                <i data-lucide="camera" style="width:14px;height:14px"></i>
+                Chụp ảnh màn hình để lưu giữ kỷ niệm nhé!
+            </p>
+        </div>
+    </div>
+
+    <!-- Phần Vòng quay may mắn -->
+    <div class="wheel-section" id="wheelSection" style="display:none;">
+        <div class="wheel-header">
+            <i data-lucide="star" style="width:18px;height:18px"></i>
+            <h2 class="wheel-title">Vòng Quay May Mắn</h2>
+            <p class="wheel-subtitle">Quay để nhận điều bất ngờ dành cho bạn!</p>
+        </div>
+        <div class="wheel-container">
+            <div class="wheel-pointer"></div>
+            <canvas id="wheelCanvas" width="320" height="320"></canvas>
+        </div>
+        <button class="btn btn-primary wheel-spin-btn" id="spinBtn">
+            <i data-lucide="rotate-cw" style="width:16px;height:16px"></i>
+            Quay ngay!
+        </button>
+        <div class="wheel-result" id="wheelResult" style="display:none;">
+            <div class="wheel-result-card">
+                <span class="wheel-result-icon" id="resultIcon"></span>
+                <p class="wheel-result-text" id="resultText"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Vệt lấp lánh khi di chuyển chuột -->
+    <canvas id="sparkleCanvas" class="sparkle-canvas"></canvas>
+
+    <!-- Thông báo nhỏ -->
+    <div class="toast" id="toast">Đã sao chép liên kết! 📋</div>
+</div>
+
+<script src="js/emoji.js"></script>
+<script src="js/music.js"></script>
+<script src="js/router.js"></script>
+<script src="js/greeting.js"></script>
+<script src="js/app.js"></script>
+</body>
+
+</html>

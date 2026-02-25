@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Chúc mừng Ngày Quốc tế Phụ nữ 8/3 — Lời chúc cá nhân hóa dành tặng các thành viên nữ của câu lạc bộ.">
+    <title>💐 Chúc Mừng 8/3 — Ngày Quốc Tế Phụ Nữ</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>">
+</head>
+
+<body>
+    <div id="app-root">
+        <div class="landing-page">
+            <!-- Các phần tử bay trôi trang trí -->
+            <div class="particles-container" id="particles"></div>
+
+            <!-- Tiêu đề và Tìm kiếm -->
+            <section class="hero">
+                <span class="hero-icon">🌿</span>
+                <div class="hero-badge">✦ HAPPY WOMEN'S DAY ✦</div>
+                <h1 class="hero-title">Chúc Mừng Ngày 8/3</h1>
+                <p class="hero-subtitle">
+                    Nhập tên của bạn để nhận lời chúc dành riêng cho bạn 🍃
+                </p>
+
+                <!-- Ô nhập tên -->
+                <div class="search-box" id="searchBox">
+                    <div class="search-input-wrapper">
+                        <i data-lucide="search" class="search-icon"></i>
+                        <input type="text" id="nameInput" class="search-input" placeholder="Nhập tên của bạn..."
+                            autocomplete="off" autofocus />
+                    </div>
+                    <div class="search-suggestions" id="suggestions"></div>
+                    <p class="search-hint" id="searchHint">
+                        <i data-lucide="sparkles" style="width:14px;height:14px"></i>
+                        Gõ tên để tìm lời chúc dành riêng cho bạn
+                    </p>
+                </div>
+            </section>
+
+            <!-- Chân trang -->
+            <footer class="footer">
+                <div class="footer-hearts">🌱 🌱 🌱 🌱 🌱</div>
+                <p>Được thiết kế với tất cả tình yêu — Chúc mừng Ngày Quốc tế Phụ nữ 2026 🍀</p>
+            </footer>
+        </div>
+    </div>
+
+    <script src="js/emoji.js"></script>
+    <script src="js/music.js"></script>
+    <script src="js/router.js"></script>
+    <script src="js/greeting.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+        // Hàm khởi tạo trang khi tải lần đầu
+        function initInitialPage() {
+            if (window.lucide) lucide.createIcons();
+            if (window.parseEmoji) parseEmoji(document.body);
+        }
+        document.addEventListener('DOMContentLoaded', initInitialPage);
+    </script>
+</body>
+
+</html>

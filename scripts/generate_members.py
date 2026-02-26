@@ -149,17 +149,32 @@ wishes = [
 themes = ["rose", "lavender", "mint", "peach", "sky", "coral"]
 emojis = ["🌸", "🌷", "🌺", "🌼", "🌻", "🌿", "🦋", "✨"]
 
+# Tải dữ liệu cũ nếu có để giữ lại các chỉnh sửa thủ công (ví dụ: role, message riêng)
+existing_data = {}
+try:
+    with open(r"d:\CODE\83 yap yap\data\members.json", "r", encoding="utf-8") as f:
+        old_list = json.load(f)
+        for item in old_list:
+            existing_data[item["id"]] = item
+except FileNotFoundError:
+    pass
+
 members = []
 for i, name in enumerate(unique_names):
+    member_id = slugify(name)
+    
+    # Nếu đã có trong data cũ, ưu tiên giữ nguyên một số trường quan trọng
+    existing = existing_data.get(member_id, {})
+    
     members.append({
-        "id": slugify(name),
+        "id": member_id,
         "name": name,
-        "role": "Thành viên",
-        "message": messages[i % len(messages)].format(name=name),
-        "emoji": emojis[i % len(emojis)],
-        "theme": themes[i % len(themes)],
-        "quote": quotes[i % len(quotes)],
-        "wish": wishes[i % len(wishes)]
+        "role": existing.get("role", "Thành viên"),
+        "message": existing.get("message", messages[i % len(messages)].format(name=name)),
+        "emoji": existing.get("emoji", emojis[i % len(emojis)]),
+        "theme": existing.get("theme", themes[i % len(themes)]),
+        "quote": existing.get("quote", quotes[i % len(quotes)]),
+        "wish": existing.get("wish", wishes[i % len(wishes)])
     })
 
 with open(r"d:\CODE\83 yap yap\data\members.json", "w", encoding="utf-8") as f:

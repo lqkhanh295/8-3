@@ -1,11 +1,10 @@
 /**
  * router.js — Bộ điều hướng trang (SPA)
- * Chuyển trang mượt mà để nhạc không bị ngắt quãng.
+ * Chuyển trang mà nhạc không bị ngắt quãng.
  */
 
 const Router = {
     init() {
-        console.log('Router: Đang khởi tạo...');
 
         // Chặn các liên kết nội bộ để xử lý bằng JS
         document.addEventListener('click', (e) => {

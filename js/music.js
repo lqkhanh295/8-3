@@ -21,7 +21,7 @@ class MusicPlayer {
         this.audio.volume = 0.4;
         this.audio.preload = 'auto';
 
-        // Kiểm tra xem người dùng có tắt tiếng trước đó không
+        // Kiểm tra có tắt tiếng trước đó không
         this.isMuted = localStorage.getItem('musicMuted') === 'true';
         this.audio.muted = this.isMuted;
 
@@ -43,17 +43,13 @@ class MusicPlayer {
         const btn = document.createElement('button');
         btn.id = 'music-toggle';
         btn.className = 'music-toggle-btn';
-        btn.innerHTML = this.isMuted ? '<i data-lucide="volume-x"></i>' : '<i data-lucide="volume-2"></i>';
+        btn.setAttribute('aria-label', this.isMuted ? 'Bật nhạc' : 'Tắt nhạc');
         btn.title = this.isMuted ? 'Bật nhạc' : 'Tắt nhạc';
 
         document.body.appendChild(btn);
         this.btn = btn;
 
-        if (window.lucide) {
-            window.lucide.createIcons();
-        } else {
-            this.btn.textContent = this.isMuted ? '🔇' : '🔊';
-        }
+        this.updateUI();
     }
 
     // Thiết lập các sự kiện

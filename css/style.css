@@ -320,7 +320,8 @@ p {
 }
 
 .suggestion-item:hover {
-  background: rgba(126, 203, 161, 0.1);
+  background: rgba(126, 203, 161, 0.08);
+  padding-left: 24px;
 }
 
 .suggestion-item[data-theme="lavender"]:hover {
@@ -341,6 +342,18 @@ p {
 
 .suggestion-item[data-theme="coral"]:hover {
   background: rgba(232, 148, 122, 0.08);
+}
+
+.suggestion-arrow {
+  opacity: 0;
+  transform: translateX(-10px);
+  transition: all 0.3s var(--ease-soft);
+  color: var(--landing-accent);
+}
+
+.suggestion-item:hover .suggestion-arrow {
+  opacity: 1;
+  transform: translateX(0);
 }
 
 .suggestion-emoji {
@@ -639,6 +652,46 @@ p {
   letter-spacing: 4px;
   margin-bottom: 6px;
   opacity: 0.5;
+}
+
+/* ========================================
+   MUSIC TOGGLE BUTTON
+   ======================================== */
+.music-toggle-btn {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text);
+  z-index: 1000;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s var(--ease-soft);
+}
+
+.music-toggle-btn:hover {
+  transform: scale(1.1) rotate(5deg);
+  background: var(--white);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.music-toggle-btn:active {
+  transform: scale(0.95);
+}
+
+.music-toggle-btn svg {
+  width: 22px;
+  height: 22px;
+  opacity: 0.8;
 }
 
 /* ========================================
